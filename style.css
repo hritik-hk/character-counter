@@ -1,0 +1,52 @@
+body{
+    background-color: #F4DFBA;
+    margin:0;
+    max-width: 100%;
+    overflow-x: hidden;
+
+}
+
+.nav-bar{
+    position: relative;
+    background-color: #876445;
+    width: 100%;
+    height: 90px;
+}
+
+.heading{
+    color: rgb(255, 255, 255);
+    font-family: 'Josefin Sans', sans-serif;
+    position: absolute;
+    font-size: 1.7rem;
+    margin-top: 0;
+    top:30px;
+    left: 50px;
+}
+
+.status{
+    text-align: center;
+}
+.counters{
+    font-family: 'Mulish', sans-serif;
+    margin: 40px 60px;
+    display: inline-block;
+    font-size: 1.5rem;
+}
+
+.main{
+    text-align: center;
+}
+.text-box{
+    font-size: 1rem;
+    height: 450px;
+    width: 75%;
+
+}
+
+.footer{
+    text-align: center;
+}
+
+.footer p{
+    margin-bottom: 0;
+}
