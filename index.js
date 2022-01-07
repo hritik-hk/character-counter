@@ -66,3 +66,12 @@ $(".text-box").on("input",function(event){
 const currentYear=date.getFullYear();
 
 $(".copyright").text("Copyright ©"+currentYear);
+
+
+
+  function updateTime() {
+    const currentTime = new Date().toLocaleTimeString();
+    $(".time").text(currentTime);
+    
+  }
+  setInterval(updateTime, 1000);
